@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div className="App">
-      <AnimatePresence>
+      <AnimatePresence exitBeforeEnter>
         <Routes location={location} key={location.pathname}>
           <Route path="/patrick-portfolio" element={<Landpage />} />
           <Route path="/about" element={<About />} />
