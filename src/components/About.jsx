@@ -71,7 +71,7 @@ function About() {
         transition={{ duration: 0.5 }}
         exit={{ opacity: 0 }}
       >
-        <Link to="/">
+        <Link to="/patrick-portfolio">
           <button className="px-4 py-4 rounded-lg bg-slate-400 bg-transparent hover:ml-[-10%] duration-500">
             <FaAngleDoubleLeft size={30} />
           </button>
