@@ -9,9 +9,9 @@ function App() {
 
   return (
     <div className="App">
-      <AnimatePresence exitBeforeEnter>
+      <AnimatePresence>
         <Routes location={location} key={location.pathname}>
-          <Route path="/" element={<Landpage />} />
+          <Route path="/patrick-portfolio" element={<Landpage />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
         </Routes>
